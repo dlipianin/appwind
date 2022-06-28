@@ -1,0 +1,632 @@
+/* GENERAL */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background-color: rgba(209, 206, 206, 0.1);
+}
+
+.container-fluid {
+  margin: 0%;
+  padding: 0%;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #7471ff;
+}
+
+a:hover {
+  color: #5654f0;
+  text-decoration: line-through;
+}
+
+#header {
+  margin-bottom: 2%;
+}
+
+/* HERO */
+
+#hero {
+  padding: 5%;
+  margin: 2%;
+  border-radius: 10px;
+  background: conic-gradient(from -90deg at 50% 105%, white, orchid);
+}
+
+#hero > h1,
+p {
+  margin-bottom: 5%;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+}
+
+.intro button:nth-child(2) {
+  background: none;
+}
+
+.intro button:nth-child(2):hover {
+  background-color: white;
+}
+
+.explore {
+  background-color: #7471ff;
+  color: white;
+  margin-right: 2%;
+}
+
+.explore:hover {
+  background-color: white;
+  color: #7471ff;
+}
+
+.watch {
+  color: #7471ff;
+}
+
+.hero-img {
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+}
+
+/* FEATURES */
+
+#features {
+  padding: 10% 5%;
+}
+
+#features h1,
+p {
+  margin-bottom: 5%;
+}
+
+.features-container {
+  border-radius: 10px;
+  background-color: white;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+.features-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 0 5% 5%;
+}
+
+.features-heading p {
+  color: black;
+  font-weight: 700;
+}
+
+.circle {
+  background-color: #7471ff;
+  color: white;
+  padding: 3%;
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+.raters {
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 5% 5% 0;
+}
+
+.raters p {
+  font-weight: 500;
+  color: black;
+}
+
+.features-img {
+  margin: 0 2% 5% 0;
+}
+
+.features-img img {
+  border: 3px solid whitesmoke;
+  border-radius: 50%;
+}
+
+.features-body h1 {
+  font-size: 1.75rem;
+}
+
+/* ABOUT */
+
+#about {
+  padding: 0 5% 5%;
+}
+
+.first-about {
+  margin-top: 5%;
+  text-align: left;
+}
+
+#about h5 {
+  margin-top: 5%;
+  color: #7471ff;
+}
+
+#about h2 {
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+
+.second-about {
+  margin-top: 10%;
+  text-align: left;
+}
+
+/* HOW IT WORKS */
+
+#how {
+  padding: 10% 5%;
+}
+
+#how h1 {
+  margin-bottom: 5%;
+}
+
+#how p {
+  margin-bottom: 5%;
+}
+
+.how-icon {
+  background-color: white;
+  border-radius: 50%;
+  color: #7471ff;
+  padding: 5%;
+}
+
+.how-icon:hover {
+  background-color: #7471ff;
+  color: white;
+}
+
+#how h3 {
+  margin-top: 5%;
+}
+
+.icon-p {
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+/* DOWNLOAD */
+
+#download {
+  width: 80%;
+  padding: 10% 5% 0;
+  border-radius: 10px;
+  margin: auto;
+  background: conic-gradient(from -90deg at 50% 105%, white, orchid);
+  text-align: left;
+}
+
+#download h4 {
+  color: #7471ff;
+}
+
+#download h1,
+p {
+  margin-bottom: 5%;
+}
+
+.download-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+.google-play {
+  background-color: #7471ff;
+  color: white;
+  margin-right: 2%;
+}
+
+.google-play:hover {
+  background-color: white;
+  color: #7471ff;
+}
+
+.apple:hover {
+  background-color: white;
+  color: black;
+}
+
+.apple {
+  background-color: black;
+  color: white;
+}
+
+.download-img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 100%;
+}
+
+/* PRICING */
+
+#pricing {
+  padding: 10% 5%;
+}
+
+#pricing h1,
+p {
+  margin-bottom: 5%;
+}
+
+.card {
+  margin-bottom: 5%;
+  padding: 10%;
+  text-align: left;
+}
+
+.popular {
+  border: 1px solid #7471ff;
+}
+
+.month {
+  font-size: 1rem;
+  font-weight: 300;
+  color: grey;
+}
+
+.btn-pricing,
+.btn-form {
+  background-color: #7471ff;
+  color: white;
+}
+
+.btn-pricing:hover,
+.btn-form:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+/* REVIEWS */
+
+#reviews {
+  padding: 5% 5%;
+  background-color: aliceblue;
+}
+
+#reviews h1,
+p {
+  margin-bottom: 5%;
+}
+
+.reviews-container:hover {
+  background-color: #7471ff;
+  color: white;
+}
+
+.review-img {
+  padding-right: 0%;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  margin: auto;
+  margin: 0 0 0 2%;
+  flex-direction: column;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.name {
+  font-weight: 900;
+}
+
+/* FAQ */
+
+#faq {
+  padding: 10% 5%;
+}
+
+#faq h1,
+p {
+  margin-bottom: 5%;
+}
+
+#faq .card {
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+}
+
+.faq-body:nth-child(1) {
+  margin-bottom: 5%;
+}
+
+.faq-body:nth-child(2) {
+  margin-bottom: 5%;
+}
+
+/* ARTICLES */
+
+#articles {
+  padding: 0 5% 10%;
+}
+
+#articles h1,
+p {
+  margin-bottom: 5%;
+}
+
+/* PARTNERS */
+
+#partners {
+  padding: 10% 0;
+  background: conic-gradient(from -90deg at 50% 105%, white, orchid);
+}
+
+#partners img {
+  margin: 1%;
+}
+
+/* CONTACT */
+
+#contact {
+  padding: 10% 5% 10%;
+}
+
+#contact .card {
+  border: 1px solid aliceblue;
+}
+
+#contact h1,
+p {
+  margin-bottom: 5%;
+}
+
+#contact label {
+  text-align: left;
+}
+
+#contact input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+/* FOOTER */
+
+#footer {
+  padding: 0 5%;
+}
+
+#footer img {
+  margin-bottom: 5%;
+}
+
+.socials {
+  margin-bottom: 5%;
+}
+
+.socials a {
+  color: grey;
+  margin: 0 1%;
+}
+
+.fa-facebook:hover {
+  color: #4267b2;
+}
+
+.fa-twitter-square:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #c13584;
+}
+
+.fa-linkedin:hover {
+  color: #0a66c2;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: grey;
+}
+
+.footer-list ul {
+  list-style: none;
+}
+
+.newsletter {
+  margin-top: 5%;
+}
+
+.newsletter p {
+  padding: 0 5%;
+}
+
+.newsletter input {
+  border: 1px solid aliceblue;
+  margin: auto;
+  width: 80%;
+}
+
+footer {
+  margin-top: 10%;
+  padding: 5% 0 1%;
+  background-color: white;
+}
+
+/* NIGHT MODE BUTTON */
+
+#toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox:checked + .label {
+  background-color: white;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translate(24px);
+  background-color: #191919;
+}
+
+.label {
+  height: 26px;
+  width: 50px;
+  display: flex;
+  background-color: #191919;
+  border-radius: 50px;
+  justify-content: space-between;
+  margin: auto;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.ball {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
+}
+
+body.dark {
+  background-color: #363535;
+  color: white;
+}
+
+#header.dark {
+  background-color: white;
+}
+
+#hero.dark,
+.features-container.dark,
+#download.dark,
+#reviews.dark {
+  background: #504f4f;
+}
+
+.trailer.dark {
+  color: white;
+}
+
+.dark-p.dark {
+  color: white;
+}
+
+.price.dark,
+.reviews-container.dark,
+.faq-container.dark,
+.article-container.dark,
+.contact-form.dark,
+input.dark,
+textarea.dark {
+  background-color: #302d2d;
+  border: 1px solid white;
+}
+
+.reviews-container.dark:hover {
+  background-color: #7471ff;
+  color: white;
+}
+
+.popular.dark {
+  border: 1px solid #7471ff;
+}
+
+.card-header.dark {
+  background-color: rgb(136, 133, 133);
+}
+
+#partners.dark {
+  background: white;
+}
+
+.dark::-webkit-input-placeholder {
+  color: white;
+}
+
+.footer-p.dark {
+  color: #302d2d;
+}
+
+@media screen and (min-width: 1024px) {
+  #pricing .card {
+    height: 100%;
+  }
+
+  #hero,
+  #features,
+  #about,
+  #articles {
+    width: 70%;
+    margin: auto;
+  }
+
+  #download,
+  #contact {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .download-img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #download {
+    width: 100%;
+    border-radius: 0;
+  }
+}
