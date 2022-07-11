@@ -629,4 +629,7 @@ textarea.dark {
     width: 100%;
     border-radius: 0;
   }
+  .footer-p {
+    font-size: 0.75rem;
+  }
 }
